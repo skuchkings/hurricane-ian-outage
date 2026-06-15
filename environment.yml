@@ -1,0 +1,15 @@
+name: hurricane-ian-outage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.2
+  - numpy>=1.26
+  - geopandas>=0.14
+  - pyogrio>=0.7
+  - shapely>=2.0
+  - matplotlib>=3.8
+  - mapclassify>=2.6
+  - requests>=2.31
+  - tqdm>=4.66
+  - pytest>=8.0

@@ -1,0 +1,19 @@
+# raw source files can be large or require account access
+data/raw/*
+!data/raw/.gitkeep
+
+# derived files can be regenerated
+data/processed/*
+!data/processed/.gitkeep
+data/outputs/*
+!data/outputs/.gitkeep
+
+# local env/cache
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# QGIS backups
+*.qgz~
